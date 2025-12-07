@@ -22,7 +22,7 @@
   <header class="site-header" id="site-header">
     <div class="container header__inner">
       <a class="brand" href="#hero" aria-label="Home — Syauqi Abdul Aziz">
-        <span class="brand__name">Syauqi A. Aziz</span>
+        <span class="brand__name">Syauqi Abdul Aziz</span>
         <span class="brand__role">Mahasiswa Sistem Informasi</span>
       </a>
 
@@ -64,7 +64,7 @@
     <section id="hero" class="hero reveal">
       <div class="container hero__inner">
         <div class="hero__media">
-          <img src="assets/photo.jpg" alt="Foto Syauqi Abdul Aziz" class="hero__photo" loading="lazy" width="320" height="320" />
+          <img src="img/ssyprofi.jpg" alt="Foto Syauqi Abdul Aziz" class="hero__photo" loading="lazy" width="320" height="320" />
         </div>
 
         <div class="hero__content">
@@ -72,10 +72,11 @@
           <p class="hero__tagline">Mahasiswa Sistem Informasi — Universitas Komputama Cilacap</p>
           <p class="hero__summary">Saya mahasiswa Sistem Informasi dengan minat pada pengembangan web dan analisis data. Saya membangun antarmuka yang rapi, responsif, dan mudah digunakan.</p>
 
-          <div class="hero__ctas">
-            <a class="btn btn--primary" href="assets/CV_Syauqi_Abdul_Aziz.pdf" download="CV_Syauqi_Abdul_Aziz.pdf">Download CV</a>
-            <a class="btn btn--outline" href="#projects">View Projects</a>
-          </div>
+          <!-- ganti hero__ctas bagian Download CV -->
+<div class="hero__ctas">
+  <a id="download-cv" class="btn btn--primary" href="cv.html" target="_blank" rel="noopener">Download CV</a>
+  <a class="btn btn--outline" href="#projects">View Projects</a>
+</div>
         </div>
       </div>
     </section>
@@ -84,7 +85,7 @@
     <section id="about" class="section about reveal">
       <div class="container">
         <h2 class="section__title">About</h2>
-        <p>Saya tertarik pada solusi berbasis data dan antarmuka pengguna yang intuitif. Saat ini fokus mempelajari pengembangan aplikasi web dan manajemen informasi.</p>
+        <p>Saya Syauqi, mahasiswa Sistem Informasi di STMIK Komputama Majenang yang saat ini juga menjalankan bisnis dropship sparepart motor. Di tengah aktivitas kuliah dan usaha yang saya jalankan, saya tetap berfokus pada pengembangan kemampuan di bidang teknologi informasi, khususnya dalam pengembangan sistem, pemrograman web, dan pemahaman konsep dasar seperti matematika diskrit serta sistem digital. Saya terbiasa belajar melalui praktik langsung, menyelesaikan masalah secara analitis, dan terus meningkatkan kemampuan bahasa Inggris untuk mendukung perkembangan akademik maupun profesional. Kombinasi pengalaman berbisnis dan studi membuat saya disiplin, adaptif, serta mampu mengelola tanggung jawab secara efektif.</p>
       </div>
     </section>
 
@@ -118,13 +119,13 @@
 
         <div class="timeline-container" role="region" aria-label="Timeline Pendidikan">
           <div class="timeline-line" aria-hidden="true"></div>
-          <div class="timeline-divider timeline-divider--formal">Formal</div>
+          <div class="timeline-divider timeline-divider--formal"></div>
 
           <ul class="timeline timeline--zigzag" id="timeline-list">
             <li class="timeline__item reveal" data-type="formal">
               <div class="timeline__card">
                 <div class="timeline__meta"><div class="timeline__year"><strong>2008 — 2014</strong></div><div class="timeline__level">SD</div></div>
-                <h3 class="timeline__school">SD Negeri Karanggedang</h3>
+                <h3 class="timeline__school">SD Negeri Karanggedang 02</h3>
                 <p class="timeline__location">Karanggedang, Sidareja, Cilacap</p>
                 <p class="timeline__desc">Pendidikan dasar; pengenalan mata pelajaran umum dan kegiatan ekstrakurikuler.</p>
               </div>
@@ -132,19 +133,19 @@
 
             <li class="timeline__item reveal" data-type="formal">
               <div class="timeline__card">
-                <div class="timeline__meta"><div class="timeline__year"><strong>2014 — 2017</strong></div><div class="timeline__level">SMP</div></div>
-                <h3 class="timeline__school">SMP Negeri Sidareja</h3>
-                <p class="timeline__location">Sidareja, Cilacap</p>
-                <p class="timeline__desc">Penguatan kemampuan akademik dan minat awal pada teknologi informasi.</p>
+                <div class="timeline__meta"><div class="timeline__year"><strong>2014 — 2017</strong></div><div class="timeline__level">Madrasah Tsanawiyah</div></div>
+                <h3 class="timeline__school">Mts Syamsul Huda</h3>
+                <p class="timeline__location">Kedungreja, Cilacap</p>
+                <p class="timeline__desc">Pengalaman agama menengah kebawah, praktik dan kompetisi sekolah.</p>
               </div>
             </li>
 
             <li class="timeline__item reveal" data-type="formal">
               <div class="timeline__card">
-                <div class="timeline__meta"><div class="timeline__year"><strong>2017 — 2020</strong></div><div class="timeline__level">SMA / SMK</div></div>
-                <h3 class="timeline__school">SMA / SMK (Contoh)</h3>
-                <p class="timeline__location">Kabupaten Cilacap</p>
-                <p class="timeline__desc">Pengalaman proyek IT sederhana, praktik, dan kompetisi sekolah.</p>
+                <div class="timeline__meta"><div class="timeline__year"><strong>2017 — 2020</strong></div><div class="timeline__level">Madrasah Aliyah</div></div>
+                <h3 class="timeline__school">MA Syamsul Huda</h3>
+                <p class="timeline__location">Kedungreja, Cilacap</p>
+                <p class="timeline__desc">Pengalaman agama menengah, praktik, dan kompetisi sekolah.</p>
               </div>
             </li>
 
@@ -152,29 +153,20 @@
               <div class="timeline__card">
                 <div class="timeline__meta"><div class="timeline__year"><strong>2022 — Sekarang</strong></div><div class="timeline__level">S1</div></div>
                 <h3 class="timeline__school">Universitas Komputama Cilacap</h3>
-                <p class="timeline__location">Cilacap</p>
+                <p class="timeline__location">Cilacap, Jawa Tengah</p>
                 <p class="timeline__desc">S1 Sistem Informasi — fokus pada basis data, pengembangan aplikasi, dan organisasi kampus.</p>
               </div>
             </li>
 
             <li class="timeline__spacer" aria-hidden="true"></li>
-            <div class="timeline-divider timeline-divider--nonformal">Non Formal</div>
+            <div class="timeline-divider timeline-divider--nonformal"></div>
 
             <li class="timeline__item reveal" data-type="nonformal">
               <div class="timeline__card">
-                <div class="timeline__meta"><div class="timeline__year"><strong>2024</strong></div><div class="timeline__level">Asisten / Proyek</div></div>
-                <h3 class="timeline__school">Asisten Penelitian / Proyek Kampus</h3>
-                <p class="timeline__location">Universitas Komputama Cilacap</p>
-                <p class="timeline__desc">Membantu pengembangan dashboard analisis data dan pemrosesan dataset.</p>
-              </div>
-            </li>
-
-            <li class="timeline__item reveal" data-type="nonformal">
-              <div class="timeline__card">
-                <div class="timeline__meta"><div class="timeline__year"><strong>2023</strong></div><div class="timeline__level">Organisasi</div></div>
-                <h3 class="timeline__school">Organisasi Mahasiswa</h3>
-                <p class="timeline__location">Universitas Komputama / Komunitas Lokal</p>
-                <p class="timeline__desc">Workshop, pengabdian masyarakat, dan kolaborasi proyek IT.</p>
+                <div class="timeline__meta"><div class="timeline__year"><strong>2014-2020</strong></div><div class="timeline__level">Non Formal</div></div>
+                <h3 class="timeline__school">Pondok Pesantren Assa'idiyah</h3>
+                <p class="timeline__location">Ciklapa, Kedungreja, Cilacap</p>
+                <p class="timeline__desc">Pengalaman belajar agama mendasar - tidak dasar.</p>
               </div>
             </li>
           </ul>
@@ -199,6 +191,20 @@
             </div>
           </article>
         </div>
+
+        <div class="projects__grid">
+          <article class="project-card">
+            <div class="project-card__body">
+              <h3 class="project-card__title">Project B — AI</h3>
+              <p class="project-card__desc">Membuat website menggunakan AI</p>
+              <div class="project-card__tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span></div>
+            </div>
+            <div class="project-card__footer">
+              <a class="btn btn--sm" href="#" target="_blank" rel="noopener">View</a>
+              <a class="btn btn--ghost btn--sm" href="#" target="_blank" rel="noopener">Repo</a>
+            </div>
+          </article>
+        </div>
       </div>
     </section>
 
@@ -206,7 +212,10 @@
       <div class="container">
         <h2 class="section__title">Experience & Activities</h2>
         <ul class="exp__list">
-          <li>Organisasi Mahasiswa — Anggota (2023 — sekarang). Keterangan peran.</li>
+          <li>Unit Kegiatan Mahasiswa : Agoogreen 2023 - sekarang.</li>
+        </ul>
+         <ul class="exp__list">
+          <li>Mobile Legend : Rank Immortal 250+.</li>
         </ul>
       </div>
     </section>
@@ -215,8 +224,12 @@
       <div class="container">
         <h2 class="section__title">Testimonials</h2>
         <blockquote class="testimonial">
-          <p>Contoh testimonial singkat dari dosen atau partner proyek.</p>
-          <cite>— Nama, Peran</cite>
+          <p>Beliau sangat canggih dalam memainkan makro mobile legend.</p>
+          <cite>— Azam, Ceo Evos Legend</cite>
+        </blockquote>
+        <blockquote class="testimonial">
+          <p>Beliau sangat tenang dalam keaadan tim terpojok.</p>
+          <cite>— Fahri, Ceo Ap Bren</cite>
         </blockquote>
       </div>
     </section>
